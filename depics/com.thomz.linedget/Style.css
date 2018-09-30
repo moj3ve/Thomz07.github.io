@@ -30,7 +30,7 @@ position:absolute; top: 82.5px; left: 2.5%; width: 60%; text-align: left; z-inde
  font-size: 30px; color: #fff; 
 }
 #text4{
-position:absolute; top: 180px; left: 2.5%; width: 20%; text-align: left; z-index: 51;
+position:absolute; top: 150px; left: 2.5%; width: 20%; text-align: left; z-index: 51;
  font-size: 30px; color: #fff; 
 }
 #R{
@@ -76,13 +76,13 @@ opacity: 1;
 #screenshots{text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 100%; }
 
 #source{
-	position:absolute; top: 355px; left: 2.5%; width: 50%; text-align: left; z-index: 51;
+	position:absolute; top: 375px; left: 2.5%; width: 50%; text-align: left; z-index: 51;
  font-size: 15px; color: #fff; 
 }
 #sourced{font-weight: bold; width: 85%; font-size: 25px;}
 
 #source2{
-	position:absolute; top: 365px; left: 90px; width: 75%; text-align: left; z-index: 51;
+	position:absolute; top: 385px; left: 90px; width: 75%; text-align: left; z-index: 51;
  font-size: 15px; color: #fff; 
 }
 
