@@ -1,12 +1,12 @@
-Architecture: iphoneos-arm
-Name: Linedget
 Package: com.thomz.lindedget 
+Name: Linedget
 Version: 1.0
-Maintainer: Thomz <thom.laffay@gmail.com>
-Author: Thomz <thom.laffay@gmail.com>
 Depends: mobilesubstrate
-Description: A customizable Widget for the homescreen
+Architecture: iphoneos-arm
+Author: Thomz
 Section: Widgets
-Filename: https://thomz07.github.io/debs/com.com.thomz.linedget.deb
+Description: A customizable Widget for the homescreen
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.linedget.deb
 Size: 796532
 MD5sum: 94d8dc5738e0783b941c7ccc8b4b9c24
