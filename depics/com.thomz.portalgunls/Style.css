@@ -1,0 +1,97 @@
+body{
+      margin:0;
+      padding:0;
+	  width: 100%;
+	  font-family: Helvetica,sans-serif;
+      text-transform:normal;
+      color:#f7f7f7;
+      letter-spacing:0.5;
+}
+
+@font-face{
+	font-family: Helvetica,sans-serif;
+	
+}
+
+
+
+#text1{
+       position:fixed; top:5px; left:0px; width:100%; text-align:center; z-index:50;
+       font-size: 13px; 
+       color:#333;
+}
+#text2{
+       position:absolute; top:40px; left:2.5%; width:90%; text-align:left; z-index:50;
+       font-size:30px; 
+       color:#fff;
+}
+#text3{
+position:absolute; top: 82.5px; left: 2.5%; width: 60%; text-align: left; z-index: 51;
+ font-size: 30px; color: #fff; 
+}
+#text4{
+position:absolute; top: 160px; left: 2.5%; width: 20%; text-align: left; z-index: 51;
+ font-size: 30px; color: #fff; 
+}
+#R{
+       position:absolute; top:0px; left:0%; width:100%;  height:610px; z-index:-80;
+       background-color:#222;
+       border-radius:0px;
+       border: 0px solid #999;
+box-shadow:3px 3px 6px rgba(0,0,0,0.3);
+opacity: 0.80;
+}
+#R2{
+       position:absolute; top:0px; left:0%; width:100%; height:25px; z-index:-80;
+       background-color:#e0e0e0;
+       border-radius:0px;
+       border: 0.5px solid #999;
+opacity: 1;
+}
+
+#paragraph{
+	text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 20%; position: absolute; left: 22.5px; top: 40px;
+}
+#header{
+	text-align:left; z-index:50; font-size:30px;  width: 20%;color:#fff; font-weight: bold; letter-spacing: -1;
+}
+#paragraph2{
+	text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 20%; position: absolute; left: 22.5px; top: 60px;
+}
+#paragraph3{
+	text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff; width: 20%;position: absolute; left: 22.5px; top: 80px;
+}
+#paragraph4{
+	text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 20%; position: absolute; left: 22.5px; top: 120px;
+}
+#reddit{position: absolute; left: 0px; top: 38px;}
+#mail{position: absolute; left: 3px; top: 61px;}
+#twitter{position: absolute; left: 0px; top: 79px;}
+#paypal{position: absolute; left: 2.5px; top: 121px;}
+#paypaltext{text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 100%; position: absolute; left: 2.5px; top: 100px;}
+#description{text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 100%; position: absolute; left: 2.5px; top: 40px;}
+#tweakname{font-weight: bold; width: 90%; letter-spacing: -1;}
+#ddescription{text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 100%; position: absolute; left: 2.5px; top: 40px;}
+#dependencies{font-weight: bold; letter-spacing: -1;}
+#screenshots{text-decoration: none;text-align:left; z-index:50;font-size:12.5px; color:#fff;width: 100%; }
+
+#source{
+	position:absolute; top: 375px; left: 2.5%; width: 50%; text-align: left; z-index: 51;
+ font-size: 15px; color: #fff; 
+}
+#sourced{font-weight: bold; width: 85%; font-size: 25px;}
+
+#source2{
+	position:absolute; top: 385px; left: 90px; width: 75%; text-align: left; z-index: 51;
+ font-size: 15px; color: #fff; 
+}
+
+#trucsdubas{position: absolute;top: 140px;left: 0%; width: 90%}
+
+
+
+
+
+
+
+

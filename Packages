@@ -53,3 +53,31 @@ Filename: ./debs/com.thomz.ps1charging.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.ps1/index.html
 Size: 671998
 MD5sum: 5d28a3d860199db451e9e5da6e012f30
+
+Package: com.thomz.portalgunls 
+Name: Portalgun LS
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Widgets
+Description: A Widget for the lockscreen with a portalgun animation
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.portalgunls.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.portalgunls/index.html
+Size: 582982
+MD5sum: 4970f2dae5cff21c3704d4c389e1c81f
+
+Package: com.thomz.portalgunhs 
+Name: Portalgun HS
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Widgets
+Description: A Widget for the homescreen with a portalgun animation
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.portalgunhs.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.portalgunhs/index.html
+Size: 582830
+MD5sum: 730fb454fd5f75f5e7b4dd86acd118bf
