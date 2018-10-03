@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+
+
+
+
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+        <font face="verdana" >
+
+
+    <title>Linedget</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT-AWESOME CORE STYLE  -->
+
+    <!-- CORE CUSTOM STYLE  -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+     <!-- THEME COLOUR STYLE (BY DEFAULT GREEN COLOR,  YOU CAN REPLACE green.css to red.css , orange.css, blue.css ,grey-bk.css or black-bk.css)  -->
+    <link id="mainCSS" href="assets/css/themes/black-bk.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+     <!-- STYLE SWITCHER STYLE -->
+
+    <!-- /. END THEME SWITCHER-->
+    </font></head>
+
+
+
+
+
+<style>
+div.bg {
+    background-color: #333;
+    width: auto;
+    padding: 0px;
+    margin: 20px;
+    max-width: 600px;  
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.05), 0px 0px 20px 1px rgba(0, 0, 0, 0.05);
+}
+div.bgc {
+    background-color: #222;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+div.gallery img {
+    width: 80%;
+    height: 0px auto;
+    max-width: 360px;
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.08), 0px 0px 21px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+div.galleryss img {
+    width: 30%;
+    height: 0px auto;
+    max-width: 150px;
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.08), 0px 0px 21px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin:5px;
+}
+div.absolute {
+    position: absolute;
+    top: 183px;
+    right: 70px;
+    width: 80px;
+    height: auto;
+    border: 3px solid #110f2b;
+    border-radius: 20px;
+}
+.button {
+    background-color: #110f2b;
+    border: none;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 0px 0px;
+    border-radius: 12px;
+    width: 84%;
+    margin-top: 17px;
+    margin-bottom: 25px;
+    height: 0px auto;
+    max-width: 417px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.3), 0px 0px 30px 1px rgba(0, 0, 0, 0.3);
+}
+.glif  {
+    
+    padding-right: 10px;
+}
+.glif img {
+    width: 30%;
+    
+}
+div.heading {
+    font-size: 4vmax;
+    text-align: center;
+    font-weight:bolder;
+    margin-bottom:20px;
+    font-family: Arial;
+}
+.sbmt {
+    position: fixed;
+    background: linear-gradient(46deg, #ff8000 -20%, #ff4000);
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 10px;
+    width: 90%;
+    height: 0px auto;
+    max-width: 600px;
+    padding: 4px;
+    left: 50%;
+transform: translateX(-50%);
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.17), 0px 0px 20px 1px rgba(0, 0, 0, 0.17);
+    
+}
+.sbmt2 {
+    position: fixed;
+    background: linear-gradient(46deg, #00ff00 , #00cc00);
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 10px;
+    width: 90%;
+    height: 0px auto;
+    max-width: 600px;
+    padding: 4px;
+    left: 50%;
+transform: translateX(-50%);
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.17), 0px 0px 20px 1px rgba(0, 0, 0, 0.17);
+    
+}
+@media screen and (min-width: 50px) {
+  .sbmt {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sbmt {
+    font-size: 4vw;
+  }
+}
+.descrp {
+   padding-left: 35px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+}
+.descrpBLT {
+    margin-left: 35.7px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+.descrpBLT1 {
+    margin-left: 35.7px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+.descrpBLT2 {
+    margin-left: 35.7px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+</style>
+</head>
+<body>
+    <div class="bgc">
+        
+
+
+ 
+
+     <div>
+       
+     <a target="_blank" href="https://www.paypal.me/Thomz07"  class="sbmt">
+
+     <font style="font-weight:bolder;color:white;font-family:Arial">Buy me a coffee</font>
+
+
+       </a>
+
+
+
+
+   </div>
+   <div>
+       
+     <a class="sbmt2">
+
+     <font style="font-weight:bolder;color:white;font-family:Arial">9.0.0 - 11.4b3</font>
+
+
+       </a>
+
+
+
+
+   </div>
+
+
+
+
+
+
+  
+<center>
+<br>
+<br>
+
+
+<div class="bg" >
+
+
+ 
+
+   <div class="descrp">
+       
+     
+
+     <font style="font-weight:bolder;color:white;font-family:Arial">Linedget</font>
+
+
+
+
+
+
+   </div>
+
+
+   <div class="descrpBLT">
+       
+     
+
+     <font style="font-weight:bold;color:white;font-family:Arial">- A fully customizable widget</font> 
+</div>
+
+
+  <div class="descrpBLT1">
+     
+
+     <font style="font-weight:bold;color:white;font-family:Arial">- Require XenHTML and Xeninfo</font> 
+
+ </div>
+  
+
+  <div class="descrpBLT2">
+     
+
+     <font style="font-weight:bold;color:white;font-family:Arial">- Modify the widget directly from the settings</font> 
+
+
+
+
+
+
+   </div>
+
+
+
+
+
+    
+<div class="galleryss">
+
+
+<a target="_blank" href="https://thomz07.github.io/depics/com.thomz.linedget/screenshots/scrn1.png"> <img src="https://thomz07.github.io/depics/com.thomz.linedget/screenshots/scrn1.png"/> </a>
+<a target="_blank" href="https://thomz07.github.io/depics/com.thomz.linedget/screenshots/scrn2.png"> <img src="https://thomz07.github.io/depics/com.thomz.linedget/screenshots/scrn2.png"/> </a>
+  <br>
+
+
+</div>
+
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</center>
+
+</body>
+
+
+
+</body>
+
+
+</html>
