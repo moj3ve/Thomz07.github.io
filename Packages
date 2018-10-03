@@ -26,7 +26,7 @@ Depiction: https://thomz07.github.io/depics/com.thomz.pokecenter/index.html
 Size: 225536
 MD5sum: 716669b9e9b48fd49209d99788603bb8
 
-Package: com.thomz.sonicwdgt 
+Package: com.thomz.sonicwidget 
 Name: Run Sonic!
 Version: 1.0
 Depends: mobilesubstrate
@@ -38,4 +38,4 @@ Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.sonicwidget.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.sonic/index.html
 Size: 1528060
-MD5sum: faa4dee72480a4b82818baaaefec307c
+MD5sum: b9a7edaed37dd5ad94f153184099efdf
