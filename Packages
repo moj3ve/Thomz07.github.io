@@ -25,3 +25,17 @@ Filename: ./debs/com.thomz.pokecenter.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.pokecenter/index.html
 Size: 225536
 MD5sum: 716669b9e9b48fd49209d99788603bb8
+
+Package: com.thomz.sonicwdgt 
+Name: Run Sonic!
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Widgets
+Description: A Widget for the homescreen with a running sonic
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.sonicwidget.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.sonic/index.html
+Size: 796230
+MD5sum: 54ce122bd3a1b7375aadbec5ca7baf24
