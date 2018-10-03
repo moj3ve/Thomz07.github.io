@@ -8,7 +8,7 @@ Section: Widgets
 Description: A customizable Widget for the homescreen
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.linedget.deb
-Depiction: https://thomz07.github.io/depics/com.thomz.linedget/index2.html
+Depiction: https://thomz07.github.io/depics/com.thomz.linedget/index.html
 Size: 796230
 MD5sum: e9fb366e869389a0bdaad0568ee0f54c
 
