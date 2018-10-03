@@ -13,7 +13,7 @@ Size: 796230
 MD5sum: e9fb366e869389a0bdaad0568ee0f54c
 
 Package: com.thomz.pokecenter 
-Name: Pkmn Center 
+Name: Pkmn Center Charging Sound
 Version: 1.0
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
@@ -39,3 +39,17 @@ Filename: ./debs/com.thomz.sonicwidget.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.sonic/index.html
 Size: 1330428
 MD5sum: b42b9c166ba381fe17a7203a086ea4a3
+
+Package: com.thomz.ps1charging
+Name: PS1 Startup Charging Sound
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Tweaks
+Description: The PS1 startup sound for your device
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.ps1charging.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.ps1/index.html
+Size: 671998
+MD5sum: 5d28a3d860199db451e9e5da6e012f30
