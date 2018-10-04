@@ -53,6 +53,7 @@ div.bg {
     border-radius: 20px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.05), 0px 0px 20px 1px rgba(0, 0, 0, 0.05);
 	opacity: 1;
+	 animation-name: fadein2; animation-duration: 2s; animation-delay:0s;
 }
 div.bgc {
     background-color: transparent; width: 100%; height: 1300px; margin: 0px; padding: 0px;
@@ -170,6 +171,7 @@ transform: translateX(-50%);
     text-align: center;
     margin-top: 20px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.17), 0px 0px 20px 1px rgba(0, 0, 0, 0.17);
+	animation-name: fadein2; animation-duration: 4s; animation-delay:0s;
     
 }
 .sbmt4 {
@@ -191,6 +193,7 @@ transform: translateX(-50%);
     text-align: center;
     margin-top: 20px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.17), 0px 0px 20px 1px rgba(0, 0, 0, 0.17);
+	animation-name: fadein2; animation-duration: 5s; animation-delay:0s;
     
 }
 .sbmt5 {
@@ -212,6 +215,7 @@ transform: translateX(-50%);
     text-align: center;
     margin-top: 20px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.17), 0px 0px 20px 1px rgba(0, 0, 0, 0.17);
+	animation-name: fadein2; animation-duration: 6s; animation-delay:0s;
     
 }
 .sbmt6 {
@@ -233,6 +237,8 @@ transform: translateX(-50%);
     text-align: center;
     margin-top: 20px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.17), 0px 0px 20px 1px rgba(0, 0, 0, 0.17);
+	animation-name: fadein2; animation-duration: 3s; animation-delay:0s;
+	animation-name: fadein2; animation-duration: 3s; animation-delay:0s;
     
 }
 .sbmt2 {
@@ -253,6 +259,9 @@ transform: translateX(-50%);
     text-align: center;
     margin-top: 20px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.17), 0px 0px 20px 1px rgba(0, 0, 0, 0.17);
+	animation-name: fadein; animation-duration: 2s; animation-delay:0s;
+	opacity:1;
+	
     
 }
 @media screen and (min-width: 50px) {
@@ -265,6 +274,17 @@ transform: translateX(-50%);
     font-size: 4vw;
   }
 }
+@keyframes fadein{
+     from {opacity: 0;}
+	 to {opacity: 1;}
+	 }
+	 
+	 
+	 @keyframes fadein2{
+     0% {opacity: 0;}
+	 50% {opacity: 0;}
+	 100% {opacity: 1;}
+	 }
 .descrp {
    padding-left: 20px;
     padding-top: 30px;
@@ -322,7 +342,7 @@ transform: translateX(-50%);
        
      <a class="sbmt2">
     
-     <font style="font-weight:bolder;color:white;font-family:Arial">Compatible with 9.0 to 11.4b3</font>
+     <font style="font-weight:bolder;color:white;font-family:Arial; animation-name: fadein; animation-duration: 1s; animation-delay:0s;">Compatible with 9.0 to 11.4b3</font>
 
 
        </a>
