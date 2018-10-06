@@ -36,7 +36,7 @@ Section: Widgets
 Description: A Widget for the homescreen with a running sonic
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.sonicwidget.deb
-Depiction: https://thomz07.github.io/depics/com.thomz.sonic/index.html
+Depiction: https://thomz07.github.io/depics/com.thomz.sonic/depic.html
 Size: 1330428
 MD5sum: b42b9c166ba381fe17a7203a086ea4a3
 
@@ -81,3 +81,17 @@ Filename: ./debs/com.thomz.portalgunhs.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.portalgunhs/index.html
 Size: 582830
 MD5sum: 730fb454fd5f75f5e7b4dd86acd118bf
+
+Package: com.thomz.terminaios 
+Name: TerminaIOS
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Widgets
+Description: A Widget for the LS/HS that look like a terminal window
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.terminaios.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.terminaios/depic.html
+Size: 110484
+MD5sum: 6108ab702f8cb4f93334cfe00a06d82f
