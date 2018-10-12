@@ -95,3 +95,17 @@ Filename: ./debs/com.thomz.terminaios.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.terminaios/depic.html
 Size: 110484
 MD5sum: 6108ab702f8cb4f93334cfe00a06d82f
+
+Package: com.thomz.simplecontainer 
+Name: Simple Container
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Widgets
+Description: It's just.. a simple container
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.simplecontainer.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.simplecontainer/depic.html
+Size: 109852
+MD5sum: 6dbdb597ad0ccd3c1f31211ee1e1c16c
