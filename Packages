@@ -22,7 +22,7 @@ Section: Tweaks
 Description: The R/B/Y heal jingle for your device
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.pokecenter.deb
-Depiction: https://thomz07.github.io/depics/com.thomz.pokecenter/index.html
+Depiction: https://thomz07.github.io/depics/com.thomz.pokecenter/depic.html
 Size: 225536
 MD5sum: 716669b9e9b48fd49209d99788603bb8
 
@@ -50,7 +50,7 @@ Section: Tweaks
 Description: The PS1 startup sound for your device
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.ps1charging.deb
-Depiction: https://thomz07.github.io/depics/com.thomz.ps1/index.html
+Depiction: https://thomz07.github.io/depics/com.thomz.ps1/depic.html
 Size: 671998
 MD5sum: 5d28a3d860199db451e9e5da6e012f30
 
@@ -64,7 +64,7 @@ Section: Widgets
 Description: A Widget for the lockscreen with a portalgun animation
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.portalgunls.deb
-Depiction: https://thomz07.github.io/depics/com.thomz.portalgunls/index.html
+Depiction: https://thomz07.github.io/depics/com.thomz.portalgunls/depic.html
 Size: 582982
 MD5sum: 4970f2dae5cff21c3704d4c389e1c81f
 
@@ -78,7 +78,7 @@ Section: Widgets
 Description: A Widget for the homescreen with a portalgun animation
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.portalgunhs.deb
-Depiction: https://thomz07.github.io/depics/com.thomz.portalgunhs/index.html
+Depiction: https://thomz07.github.io/depics/com.thomz.portalgunhs/depic.html
 Size: 582830
 MD5sum: 730fb454fd5f75f5e7b4dd86acd118bf
 
