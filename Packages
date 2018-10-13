@@ -1,6 +1,6 @@
 Package: com.thomz.linedget 
 Name: Linedget
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Thomz
@@ -9,8 +9,8 @@ Description: A customizable Widget for the homescreen
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.linedget.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.linedget/depic.html
-Size: 796230
-MD5sum: e9fb366e869389a0bdaad0568ee0f54c
+Size: 1063038
+MD5sum: e3993bead0df7458e3eba282fc3da0f5
 
 Package: com.thomz.pokecenter 
 Name: Pkmn Center Charging Sound
