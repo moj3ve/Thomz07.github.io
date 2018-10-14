@@ -280,6 +280,12 @@
   left: 5px;
 }
 
+.app-iconz10 {
+  border-radius: 0px;
+ 
+  position:relative;
+
+}
 .app-iconz4:hover{
 	opacity: 1;
 	transform: rotate(360deg);
