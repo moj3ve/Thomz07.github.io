@@ -131,7 +131,7 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Thomz
 Section: Themes
-Description: An Outlined theme
+Description: An Outlined theme !
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.outline.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.outline/index.html
