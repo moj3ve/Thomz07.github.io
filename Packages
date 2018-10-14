@@ -109,3 +109,31 @@ Filename: ./debs/com.thomz.simplecontainer.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.simplecontainer/depic.html
 Size: 109852
 MD5sum: 6dbdb597ad0ccd3c1f31211ee1e1c16c
+
+Package: com.thomz.outlinewdgt 
+Name: Outline Widget
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Widgets
+Description: A widget for Outline theme
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.outlinewdgt.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.outlinewdgt/depic.html
+Size: 30768
+MD5sum: 428a16c5b6526246249b374d13861d5c
+
+Package: com.thomz.outline
+Name: Outline
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Themes
+Description: An Outlined theme
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.outline.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.outline/index.html
+Size: 1930660
+MD5sum: e7e860d5af05f27585b1b6fb79865c29

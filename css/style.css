@@ -7,6 +7,183 @@
   user-select: none;
 }
 
+@keyframes see {
+
+      0% {color:#FF0000; border: 2px solid #FF0000;}
+
+13.3% {color: #FF9A00;border: 2px solid #FF9A00;}
+
+26.6% {color: #FEFF00;border: 2px solid #FEFF00;}
+
+40% {color: #00FF00;border: 2px solid #00FF00;}
+
+53.3% {color: #00EFFF;border: 2px solid #00EFFF;}
+
+66.6% {color: #0022FF;border: 2px solid #0022FF;}
+
+80% {color: #9800FF;border: 2px solid #9800FF;}
+
+90% {color: #F100FF;border: 2px solid #F100FF;}
+
+100% {color: #FF0000;border: 2px solid #FF0000;}
+
+      }
+	  
+	  
+	  
+	  @keyframes fade1{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade2{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade3{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade4{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade5{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade6{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade7{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade8{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes fade9{
+		  0% {opacity: 0;}
+		  50%{opacity: 0.01;}
+		  100%{opacity: 1;}
+	  }
+	  
+	  @keyframes slide1{
+		  from{margin-left: -300px;}
+		  to{margin-left: 0px;}
+	  }
+	  
+	  @keyframes slide2{
+		  from{margin-right: -300px;}
+		  to{margin-right: 0px;}
+	  }
+	  
+	  @keyframes bg{
+	1%{background:#FF0000}
+	3%{background:#ff9900}
+	5%{background:#FFFF00}
+	7%{background: #99ff33}
+	9%{background:#33cc33}
+	11%{background:#00ffff}
+	13%{background:#0000ff}
+	15%{background:#cc66ff}
+	17%{background:#ff00ff}
+	19%{background:#FF0000}
+	21%{background:#ff9900}
+	23%{background:#FFFF00}
+	25%{background: #99ff33}
+	27%{background:#33cc33}
+	29%{background:#00ffff}
+	31%{background:#0000ff}
+	33%{background:#cc66ff}
+	35%{background:#ff00ff}
+	37%{background:#FF0000}
+	39%{background:#ff9900}
+	41%{background:#FFFF00}
+	43%{background: #99ff33}
+	45%{background:#33cc33}
+	47%{background:#00ffff}
+	49%{background:#0000ff}
+	51%{background:#cc66ff}
+	53%{background:#ff00ff}
+	55%{background:#FF0000}
+	57%{background:#ff9900}
+	59%{background:#FFFF00}
+	61%{background: #99ff33}
+	63%{background:#33cc33}
+	65%{background:#00ffff}
+	57%{background:#0000ff}
+	69%{background:#cc66ff}
+	71%{background:#ff00ff}
+	73%{background:#FF0000}
+	75%{background:#ff9900}
+	77%{background:#FFFF00}
+	79%{background: #99ff33}
+	81%{background:#33cc33}
+	83%{background:#00ffff}
+	85%{background:#0000ff}
+	87%{background:#cc66ff}
+	89%{background:#ff00ff}
+	91%{background:#FF0000}
+	93%{background:#ff9900}
+	95%{background:#FFFF00}
+	97%{background: #99ff33}
+	100%{background:#33cc33}
+}
+
+@keyframes outline1out{
+	0% {opacity: 0;}
+	1% {opacity: 1;}
+	32% {opacity: 1;}
+	33% {opacity: 0;}
+	66% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+@keyframes outline1{
+	0%{src="./screen/outline.png"}
+	33%{src="./screen/outline2.png"}
+	66%{src="./screen/outline3.png"}
+	100%{src="./screen/outline.png"}
+}
+
+@keyframes outline2out{
+	0% {opacity: 0;}
+	32% {opacity: 0;}
+	33% {opacity: 1;}
+	65% {opacity: 1;}
+	66% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+@keyframes outline3out{
+	0% {opacity: 0;}
+	32% {opacity: 0;}
+	33% {opacity: 0;}
+	65% {opacity: 0;}
+	66% {opacity: 1;}
+	99% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+	  
 .demo-swiper .swiper-slide {
   font-size: 25px;
   font-weight: 300;
@@ -99,7 +276,7 @@
   opacity: 1;
   left:-10px;
   background: #fff;
-  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.22);
   border-radius: 15px;
   height: auto;
   display: block;
@@ -150,7 +327,63 @@
 .app-icon {
   border-radius: 15px 15px 0 0;
   width: 100%;
+
 }
+
+.app-icon2 {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+   animation-name: outline2;
+ animation-delay: 0s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  margin-top: -500px;
+  opacity:0;
+}
+
+.app-icon3 {
+	
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+   animation-name: outline3;
+   animation-delay: 0s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  margin-top: -500px;
+  opacity:0;
+}
+
+.app-icon4 {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  animation-name: outline1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.app-icon5 {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  animation-name: outline1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: -380px;
+}
+
+.mySlides fade1{
+	margin-top:0;
+}
+
+.mySlides fade2{
+	margin-top:-20;
+}
+
+.mySlides fade1{
+	margin-top:-40;
+}
+
+
 .app-iconz {
   border-radius: 5px;
   width: 40px;
@@ -160,6 +393,26 @@
   border-radius: 0 0 15px 15px;
   width: 100%;
 }
+
+.app-iconz2 {
+  border-radius: 5px;
+  width: 25px;
+  height:25px;
+  position:relative;
+  left:0px;
+}
+
+.app-iconz2:hover{
+	transform: rotate(360deg);
+	transition: all 1s;
+}
+
+.app-icon4:hover{
+	width: 90%;
+	transition: all 1s;
+}
+
+
 
 .app-card .list-block {
   margin: 0px;
@@ -265,7 +518,10 @@
   background-color: #ff0000;
   width: 100%;
   height: 1px;
+ 
 }
+
+
 
 .layout-dark .hr {
   margin-top: 5px;
@@ -346,5 +602,3 @@
 
 
 /*Tab Icons*/
-
-
