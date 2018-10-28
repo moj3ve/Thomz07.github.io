@@ -56,7 +56,7 @@ MD5sum: 5d28a3d860199db451e9e5da6e012f30
 
 Package: com.thomz.portalgunls 
 Name: Portalgun LS
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Thomz
@@ -65,12 +65,12 @@ Description: A Widget for the lockscreen with a portalgun animation
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.portalgunls.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.portalgunls/depic.html
-Size: 582982
-MD5sum: 4970f2dae5cff21c3704d4c389e1c81f
+Size: 509950
+MD5sum: 2aa3e35fcd198e7dacc64cde2dbc65a1
 
 Package: com.thomz.portalgunhs 
 Name: Portalgun HS
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Thomz
