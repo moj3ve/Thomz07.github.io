@@ -98,7 +98,7 @@ MD5sum: 6108ab702f8cb4f93334cfe00a06d82f
 
 Package: com.thomz.simplecontainer 
 Name: Simple Container
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Thomz
@@ -107,8 +107,8 @@ Description: It's just.. a simple container
 Maintainer: Thomz <thom.laffay@gmail.com>
 Filename: ./debs/com.thomz.simplecontainer.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.simplecontainer/depic.html
-Size: 127670
-MD5sum: 49d453666da6b7bf4aa67156c9414b2f
+Size: 127696
+MD5sum: 8ba26bb5e958322f475d813341bd2a56
 
 Package: com.thomz.outlinewdgt 
 Name: Outline Widget
