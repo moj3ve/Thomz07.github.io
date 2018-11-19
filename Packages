@@ -137,3 +137,17 @@ Filename: ./debs/com.thomz.outline.deb
 Depiction: https://thomz07.github.io/depics/com.thomz.outline/depic.html
 Size: 1930660
 MD5sum: e7e860d5af05f27585b1b6fb79865c29
+
+Package: com.thomz.metalsonic
+Name: Metal Sonic
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Thomz
+Section: Widgets
+Description: An animated Metal Sonic for your LS
+Maintainer: Thomz <thom.laffay@gmail.com>
+Filename: ./debs/com.thomz.metalsonic.deb
+Depiction: https://thomz07.github.io/depics/com.thomz.metalsonic/depic.html
+Size: 346090
+MD5sum: 58e60840dac5186d1360a53b5952d58d
